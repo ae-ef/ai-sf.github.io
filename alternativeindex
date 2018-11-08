@@ -5,28 +5,30 @@ permalink: /inscripcion/
 redirect_from:
 ---
 
-Para convertirse en miembro del Grupo Especializado de Estudiantes, es necesario realizar la inscripción a través del formulario de la Real Sociedad Española de Física en el enlace que se presenta a continuación. Las condiciones y cuotas anuales que se aplican varían dependiendo de los siguientes factores:
-<ul class="collection">
-  <li class="collection-item">
-    <bold>Miembro Estudiante Júnior</bold>: si eres estudiante universitario/a menor de 25 años, acreditando estudios, se te aplicaría una cuota de <bold>10 €/año</bold>.
-  </li>
-  <li class="collection-item">
-    <bold>Miembro Estudiante Sénior</bold>: si eres estudiante universitario/a con 25 o más años pero menos de 30, acreditando estudios, se te aplicaría una cuota de 30€/año.
-  </li>
-  <li class="collection-item">
-    <bold>Medallas de oro de la Olimpíada Española de Física</bold>: la membresía del primer año a partir del cual recibes la medalla es completamente <bold>gratuita</bold>. El año siguiente a partir del cual te hayas hecho miembro de la RSEF, pasarías a ser Miembro Estudiante Júnior, con su correspondiente cuota anual de 10 €/año.
-  </li>
-</ul>
-<div class="row">
-  <div style="text-align:justify;">
-    <bold>¡IMPORTANTE!</bold> Antes de enviar el formulario, no te olvides de marcar en ella tu solicitud de adscripción al <bold>GE de Estudiantes de Física</bold>. ¡No dudes en ponerte en contacto con nosotros si te surge alguna duda durante la inscripción!
-  </div>
+<div class="no-pad-top" id="index-page">
+  <div class="container">
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row" style="margin-top: 5%;">
+        <div class="col s12 m6">
+<h1><img id="index-top-logo" src="https://github.com/ae-ef/ae-ef.github.io/blob/master/img/LogoAEEF.png?raw=true" alt="Logo de la AEEF"></h1>
 </div>
+
+        <div class="col s12 m6">
+          <div class="icon-block" style="margin-top: 5%;">
+            <h2 class="center">AEEF</h2>
+            <p class="light">La Asociación Juvenil Española de Estudiantes de Física (AEEF) es una organización sin ánimo de lucro que nació con el objetivo de reunir a todos los estudiantes de física de España. Con ese propósito, AEEF se convirtió en Comité Nacional Español (NC Spain) de la International Association of Physics Students (IAPS).</p>
+	    <p class="light">Tras dos años de actividad, en que consiguió dos veces, de forma consecutiva, que España se convirtiera en el tercer país más representado en la International Conference of Physics Students, sus miembros decidieron dar un gran paso y ceder NC Spain a la Real Sociedad Española de Física, a cambio de que está creará un grupo de estudiantes que pudiera seguir gestionando el proyecto.</p>
+	    <p class="light">Actualmente, la Asociación Juvenil Española de Estudiantes de Física ha cesado su actividad. Tras llegar a un acuerdo con la Real Sociedad Española de Física, hoy es su Grupo de Estudiantes el que continúa ofreciendo todas las oportunidades que brindaba AEEF, a las que se suman todas las nuevas posibilidades que resultan de semejante unión.</p>
+	    <p class="light">¿Participaste en una de nuestras actividades y te gustaría volver a hacerlo? Este es tu momento, pincha en el enlace de Estudiantes RSEF. ¿No nos conoces todavía y te gustaría enterarte de todo lo que ofrecemos? No sabes lo que te estás perdiendo. Os esperamos.</p>
+<div class="row center">
+            <a href="https://ae-ef.github.io/about/" id="about-button" class="btn-large waves-effect waves-light">Conócenos</a>
+</div>  
 
 <div class="row">
 	<div style="text-align:center;">
-		<a class="waves-effect waves-light btn-large" href="https://rsef.es/area-de-miembros/formulario-de-inscripcion-en-la-rsef">NUEVA INSCRIPCIÓN</a>
+		<a class="waves-effect waves-light btn-large" href="https://estudiantesrsef.github.io/">ESTUDIANTES RSEF</a>
   </div>
 </div>
 
-<a href="https://rsef.es/aviso-legal-y-politica-de-privacidad">Consulta aquí</a> los términos y condiciones referentes a la protección de datos.
+
