@@ -11,124 +11,28 @@ layout: default
 <h1><img id="index-top-logo" src="https://github.com/ae-ef/ae-ef.github.io/blob/master/img/LogoAEEF.png?raw=true" alt="Logo de la AEEF"></h1>
 </div>
 
+       <div class="no-pad-top" id="index-page">
+  <div class="container">
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row" style="margin-top: 5%;">
+        <div class="col s12 m6">
+<h1><img id="index-top-logo" src="https://github.com/ae-ef/ae-ef.github.io/blob/master/img/LogoAEEF.png?raw=true" alt="Logo de la AEEF"></h1>
+</div>
+
         <div class="col s12 m6">
           <div class="icon-block" style="margin-top: 5%;">
             <h2 class="center">AEEF</h2>
-            <p class="light">La Asociación Juvenil Española de Estudiantes de Física (AEEF) es una organización sin ánimo de lucro que busca reunir a todos los estudiantes de física de España. AEEF es el Comité Nacional Español de la Asociación Internacional de Estudiantes de Física (IAPS).</p>
+            <p class="light">La Asociación Juvenil Española de Estudiantes de Física (AEEF) es una organización sin ánimo de lucro que nació con el objetivo de reunir a todos los estudiantes de física de España. Con ese propósito, AEEF se convirtió en Comité Nacional Español (NC Spain) de la International Association of Physics Students (IAPS).</p>
+	    <p class="light">Tras dos años de actividad, en que consiguió dos veces, de forma consecutiva, que España se convirtiera en el tercer país más representado en la International Conference of Physics Students, sus miembros decidieron dar un gran paso y ceder NC Spain a la Real Sociedad Española de Física, a cambio de que está creará un grupo de estudiantes que pudiera seguir gestionando el proyecto.</p>
+	    <p class="light">Actualmente, la Asociación Juvenil Española de Estudiantes de Física ha cesado su actividad. Tras llegar a un acuerdo con la Real Sociedad Española de Física, hoy es su Grupo de Estudiantes el que continúa ofreciendo todas las oportunidades que brindaba AEEF, a las que se suman todas las nuevas posibilidades que resultan de semejante unión.</p>
+	    <p class="light">¿Participaste en una de nuestras actividades y te gustaría volver a hacerlo? Este es tu momento, pincha en el enlace de Estudiantes RSEF. ¿No nos conoces todavía y te gustaría enterarte de todo lo que ofrecemos? No sabes lo que te estás perdiendo. Os esperamos.</p>
 <div class="row center">
             <a href="https://ae-ef.github.io/about/" id="about-button" class="btn-large waves-effect waves-light">Conócenos</a>
 </div>  
 
-</div>
-
-<div class="icon-block" style="margin-top: 0%;">
-            <h2 class="center">IAPS</h2>
-            <p class="light">La Asociación Internacional de Estudiantes de Física promueve desde 1987 la colaboración entre estudiantes y asociaciones de física a nivel mundial. Sus miembros están representados por comités nacionales y locales. Entre todos, IAPS representa a más 50.000 estudiantes.</p>
-<div class="row center">
-            <a href="https://ae-ef.github.io/iaps/" id="about-button" class="btn-large waves-effect waves-light">Descubre IAPS</a>
-</div>  
-
-</div>
-
-        </div>
-      </div>
-      
-    </div>
-
-    <div class="section"> <!-- eventi -->
-      <h3>Nuestros eventos</h3>
-      <p>AEEF organiza actividades para estudiantes de física españoles y les ofrece la posibilidad de participar en todos los eventos abiertos a miembros de IAPS. ¿Que cuáles son esos eventos, preguntas? ¡Echa un vistazo!</p>
-      
-      <div class="row">
-        <div class="col s12 m7">
-            <ul class="slider" id="foto-eventi">
-                <ul class="slides">
-                    {% assign loopindex = 0 %}
-                    {% assign array = site.events | reverse %}
-                    {% for event in array %}
-                        {% if event.categories contains "eventonazionale" %}
-                            <li href="{{ event.site }}">
-                                <a href="{{ event.site }}">
-                                <img src="{{ event.cover }}" alt="{{ event.title }}"> </a>                               
-                    		    <div class="caption left-align">
-                    		        <h4>
-                                        {{ event.title }}
-                                    </h4>
-                    		        <p class="light grey-text text-lighten-3">
-                                        {{ event.place }},
-                                        <br>
-                                        {{ event.startingdate | date: '%b %Y' }}  
-                                    </p>
-                    		    </div>
-                            </li>
-                            {% assign loopindex = loopindex | plus: 1%}
-                        {% endif %}
-                        {% if loopindex == 4 %}
-                            {% break %}
-                        {% endif %}
-                    {% endfor %}                  
-                </ul>
-            </ul>
-        </div>
-        <div class="col s12 m5">
-		{% include eventi_homepage.html %}
-        </div>
-      </div>
-    </div>
-
-    <div class="section"> <!-- blog -->
-      <div class="row">
-        <div class="col s12 m12">
-          <h3>Lo último del Blog</h3>
-          <div class="blog-index">
-            {% assign maxCountBlog = 3 %}
-            {% assign countBlog = 0 %}
-            {% for post in site.categories['blog'] %}	
-            {% if post.hidden != true and countBlog < maxCountBlog %}
-                {% assign countBlog = countBlog | plus: 1 %}  
-                {% assign post = site.posts.first %}
-                {% assign content = post.excerpt %}
-                {% include post_detail.html %}
-            {% endif %}
-            {% endfor %}
-            <!-- <div class="divider"></div> -->
-          </div>
-        </div>
-      <!--  <div class="col s12 m12"> -->
-      <!--    <h3>Lo último de las Delegaciones Universitarias</h3> -->
-      <!--    <div class="blog-index"> -->
-      <!--      {% assign maxCountSdr = 3 %} -->
-      <!--      {% assign countSdr = 0 %} -->
-      <!--      {% for post in site.categories['sistemidiriferimento'] %} -->	
-      <!--      {% if post.hidden != true and countSdr < maxCountSdr %} -->
-      <!--          {% assign countSdr = countSdr | plus: 1 %} -->
-      <!--          {% assign post = site.posts.first %} -->
-      <!--          {% assign content = post.excerpt %} -->
-      <!--          {% include post_detail.html %} -->
-      <!--      {% endif %} -->
-      <!--      {% endfor %} -->
-            <!-- <div class="divider"></div> -->
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="row">
+	<div style="text-align:center;">
+		<a class="waves-effect waves-light btn-large" href="https://estudiantesrsef.github.io/">ESTUDIANTES RSEF</a>
   </div>
 </div>
-
-
-<!-- Modal Structure -->
-<!-- <div id="modal1" class="modal"> -->
-<!--   <div class="modal-content"> -->
-<!--     <h4>PLANCKS 2016</h4> -->
-<!--     <div class="chip">Bucharest, Romania</div><div class="chip">20-23 Maggio 2016</div> -->
-<!--     <p>PLANCKS è una competizione di fisica teorica organizzata da IAPS, che bla bla bla</p> -->
-<!--   </div> -->
-
-<!--   <div class="modal-footer"> -->
-<!--     <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Chiudi</a> -->
-<!--     <a href="http://2016.plancks.org" class=" modal-action modal-close waves-effect waves-green btn-flat">Sito ufficiale</a> -->
-<!--   </div> -->
-<!-- </div> -->
-
-{% include eventi_homepage_modal.html %}
-{% include schema.html %}
