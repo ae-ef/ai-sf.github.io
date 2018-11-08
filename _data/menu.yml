@@ -1,22 +1,22 @@
- - text: Conócenos
-   url: /about/
-   slug: about
-   subitems:
-     - text: Junta de Gobierno
-       url: /juntadegobierno/
-     - text: Delegaciones Universitarias
-       url: /delegacionesuniversitarias/
-     - text: Documentos
-       url: /documentos/
- - text: Eventos
-   url: /eventosglobales/
-   subitems:
-     - text: Eventos Globales
-       url: /eventosglobales/
-     - text: Eventos Nacionales
-       url: /eventosnacionales/
- - text: Blog
-   url: /blog
+# - text: Conócenos
+#   url: /about/
+#   slug: about
+#   subitems:
+#     - text: Junta de Gobierno
+#       url: /juntadegobierno/
+#     - text: Delegaciones Universitarias
+#       url: /delegacionesuniversitarias/
+#     - text: Documentos
+#       url: /documentos/
+# - text: Eventos
+#   url: /eventosglobales/
+#   subitems:
+#     - text: Eventos Globales
+#       url: /eventosglobales/
+#     - text: Eventos Nacionales
+#       url: /eventosnacionales/
+# - text: Blog
+#   url: /blog
 # - text: SdR
 #   url: /sistemidiriferimento/
 # - text: Inscríbete!
