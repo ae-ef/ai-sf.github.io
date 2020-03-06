@@ -25,8 +25,8 @@ We use [SemVer](http://semver.org/) for versioning in this fashion:
 ## Authors
 
 * **[Associazione Italiana Studenti di Fisica](https://ai-sf.it/)** - *Initial work*
-* **[Alejandro Fernández Muñoz](@EstudiantesRSEF)** - *Initial Fork. President of the GdeE RSEF & Active Developer* 
-* **[Vuk Hidalgo](@vukhidalgo)** - *IT Commitee Manager, Main Developer and Mantainer of the GdeE RSEF Website*
+* **[Alejandro Fernández Muñoz](https://github.com/EstudiantesRSEF/EstudiantesRSEF.github.io)** - *Initial Fork. President of the GdeE RSEF & Active Developer* 
+* **[Vuk Hidalgo](https://github.com/vukhidalgo)** - *IT Commitee Manager and Mantainer of the GdeE RSEF Website*
 
 ## License
 
