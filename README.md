@@ -10,11 +10,11 @@ Official website of the [Student's Group of the Spanish Royal Physics Society](h
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read our [code of conduct](https://github.com/EstudiantesRSEF/EstudiantesRSEF.github.io/blob/master/CODE_OF_CONDUCT.md) before submitting pull requests.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning:
+We use [SemVer](http://semver.org/) for versioning in this fashion:
 
   * Major version numbers X change incrementally whenever significant change to the website code is being introduced. For example, a large or potentially backward-incompatible change to the base code. These should always be developed in separated Git branches and never be merged except a global consensus by the Executive Committee is reached.
 
